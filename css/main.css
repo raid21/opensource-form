@@ -1,0 +1,15 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+.row {margin-top: 50px;}  
+img{width: 90%; height: 70%;}
+body{color: #FFAF00;}
+p:last-of-type{margin-top: 20px;}
+a{color: #8e8e8e; text-decoration: none;}
+a:hover{color: #8e8e8e;}
+.btn-primary {color: #fff; background-color: #FFAF00; border-color: #FFAF00; width: 100px;}
+.btn-primary:hover {background-color: #FFAF00; border-color: #FFAF00; width: 100px;}
+.btn-primary span {display: inline-block; position: relative; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s;-ms-transition: 0.5s;-o-transition: 0.5s;}
+.btn-primary span:after {content: '\00bb';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;-o-transition: 0.5s;}
+.btn-primary:hover span {padding-right: 25px;}
+.btn-primary:hover span:after {opacity: 1; right: 0;}
+.txt-err::-webkit-input-placeholder {color: red;}
+#nameErr, #emailErr, #selectErr{color: red; text-transform: initial;}
